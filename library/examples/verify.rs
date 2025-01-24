@@ -5,10 +5,15 @@ use std::fmt::Write;
 use std::fs;
 use unbytify::bytify;
 
+
+
+
+
+
 fn main() {
     let source_path = "examples/resources";
     let entries = fs::read_dir(source_path).expect("Failed to read directory");
-
+    test
     let n_paths = fs::read_dir(source_path)
         .expect("Failed to read directory")
         .count() as u64;
