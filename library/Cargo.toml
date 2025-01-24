@@ -16,8 +16,9 @@ indicatif = "0.17.8"
 prettytable-rs = "0.10.0"
 unbytify = "0.2.0"
 
-[profile.release]
-opt-level = "s"
 
 [profile.dev]
 opt-level = 3
+
+[profile.release]
+opt-level = "s"
